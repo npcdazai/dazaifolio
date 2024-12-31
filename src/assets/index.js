@@ -29,8 +29,14 @@ import tesla from "./company/wdipl.png";
 import carrent from "./pi-finance.png";
 import jobit from "./ngo.png";
 import tripguide from "./optify.png";
+import intsa from "./instagram.svg"
+import linkedln from "./linkedin.svg"
+import whatsApp from "./whatsapp.svg"
 
 export {
+  intsa,
+  linkedln,
+  whatsApp,
   logo,
   backend,
   creator,

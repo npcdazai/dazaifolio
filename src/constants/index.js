@@ -23,6 +23,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  intsa,
+  linkedln,
+  whatsApp
 } from "../assets";
 
 export const navLinks = [
@@ -245,4 +248,22 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const socials = [
+  {
+    name: "Linkedln",
+    image: linkedln,
+    source_code_link: "https://github.com/npcdazai/Pi-finance",
+  },
+  {
+    name: "Gmail",
+    image: intsa,
+    source_code_link: "https://github.com/npcdazai/Pi-finance",
+  },
+  {
+    name: "WhatsApp",
+    image: whatsApp,
+    source_code_link: "https://github.com/npcdazai/Pi-finance",
+  },
+];
+
+export { services, technologies, experiences, testimonials, projects  , socials };
